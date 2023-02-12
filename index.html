@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Данильчик в попе мандаринчик</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Добро пожаловать на страничку всеми любимого Данильчика!</h1>
+	<h4>Если Вы хотите написать Данильчику, перейдите по <a href="https://vk.com/ddultsev" class="link">ссылке</a></h4>
+	<h4>Если Вы хотите узнать, чем занимается Данильчик, перейдите по <a href="https://www.avito.ru/user/6235cd0f7eaba50735542034da2e745c/profile?id=2355410411&iid=2355410411&src=messenger&page_from=from_item_messenger" class="link">ссылке</a></h4>
+	<h4>Если Вы хотите узнать, что любит Данильчик, перейдите по <a href="https://ru.wikipedia.org/wiki/Counter-Strike" class="link">ссылке</a></h4>
+	<h4>Если Вы хотите узнать, что не любит Данильчик, перейдите по <a href="https://ru.wikipedia.org/wiki/Телесериал" class="link">ссылке</a></h4>
+	<div class="end">
+		<h4>Для просмотра лучшего фото Данильчика жмякните</h4>
+		<button class="popup-button">ЗДЕСЬ</button>
+				<div class="popup">
+					<img class="popupp" src="images/W9iBWU-iu8Q.jpg">
+				</div>
+
+		<script>
+    		let button = document.querySelector('.popup-button');
+    		button.addEventListener('click', showPopup);
+   	 
+    		function showPopup() {
+        		document.querySelector('.popup').classList.toggle('visible');
+    	}
+		</script>
+	</div>
+</body>
+</html>
